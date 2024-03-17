@@ -5,10 +5,14 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+.homePage{
+    height:100%;
+    width:100%;
     background-color:white;
+    transition: all 3s;
+}
+.prestige{
     background-image:url("../kepler.png");
-    overflow-y : hidden;
 }
 
 h1{
@@ -55,7 +59,7 @@ h1{
 .glide{
     z-index: 2;
     position:fixed;
-    top:-140%;
+    top:-110%;
     left:-20%;
     transform:translate(-200rem, 0rem);
     scale:0.4;
@@ -71,4 +75,8 @@ h1{
         transform: translate(160rem, 20rem);
         scale: 1.2;
     }
+}
+
+.prestidigitation{
+    backdrop-filter:blur(80px);
 }
