@@ -5,7 +5,7 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+.homePage{
     height:100%;
     width:100%;
     background-color:white;
@@ -78,5 +78,5 @@ h1{
 }
 
 .prestidigitation{
-    backdrop-filter:blur(100px);
+    backdrop-filter:blur(80px);
 }
