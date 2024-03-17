@@ -56,5 +56,16 @@
       "plainte": "Je suis contrarié par les perturbations du service dans cette zone. Cela a compliqué mes déplacements et causé des retards inattendus.",
       "justification": "Je suis désolé pour cette expérience. Nous sommes conscients de l'importance de maintenir une desserte régulière et fiable dans toutes les zones. Nous travaillons à identifier les causes des perturbations et à mettre en place des solutions pour améliorerla fiabilité du service dans cette zone."
     }
+    ],
+    "spitch": [
+      {
+        "justification": "Vous pouvez consulter les horaires détaillées de la ligne 123 sur notre site web ou argumenter plus précisément votre demande."
+      },
+      {
+        "justification": "Le bus de la ligne 123 en direction de Dampremy passe toutes les 15 minutes et nottement à 17h."
+      },
+      {
+        "justification": "Je suis désolé pour l'impact de nos travaux sur votre journée, cependant je vous certifie que les travaux sont en phase finale et les bus reprendront leur trajets habituels dès le Lundi 18/03."
+      }
     ]
     }
