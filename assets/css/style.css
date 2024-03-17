@@ -171,6 +171,7 @@ html {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  overflow-y: scroll;
 }
 #mainChat #chatContainer {
   width: 80%;
