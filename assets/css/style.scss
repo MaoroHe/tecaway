@@ -2,3 +2,61 @@
 @import 'chat/_nav.scss';
 @import 'chat/_footer.scss';
 @import 'chat/_main.scss';
+
+body{
+    background-color:darkcyan;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+}
+
+.home {
+    position:relative;
+    z-index: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 10%;
+    margin-top:16%;
+}
+
+.complainBtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: gray;
+    border-radius: 1rem;
+    padding : 0.5rem;
+        &:hover{
+            cursor:pointer;
+        }
+}
+
+.tram{
+    display:none;
+}
+
+.glide{
+    z-index: 2;
+    position:fixed;
+    top:-140%;
+    left:-20%;
+    transform:translate(-200rem, 0rem);
+    scale:0.4;
+    animation-name: tramway;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes tramway {
+    from{
+        transform: translate(-200rem, 0rem);
+       }to{
+        transform: translate(160rem, 10rem);
+        scale: 1.2;
+    }
+}
