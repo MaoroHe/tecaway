@@ -4,32 +4,39 @@ html{
 
 body{
     background-color:white;
+    background-image:url("../kepler.png");
+    overflow-y : hidden;
 }
 
 h1{
     text-align: center;
+
     font-size: 64px;
 }
 
 
 .home {
+    backdrop-filter:blur(4px);
+    border-radius: 1rem;
     position:relative;
     z-index: 1;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin : 10%;
+    margin : 20%;
     margin-top:16%;
     transition: all 6s;
 }
 
 .complainBtn{
+    margin:10px;
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
-    background-color: gray;
+    background-color: black;
+    color:white;
     border-radius: 0.5rem;
     padding : 0.5rem;
         &:hover{
