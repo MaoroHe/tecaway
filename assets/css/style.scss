@@ -1,7 +1,10 @@
+@import '_reset.scss';
+@import 'chat/_nav.scss';
+@import 'chat/_footer.scss';
+@import 'chat/_main.scss';
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 body{
     background-color:white;
     background-image:url("../kepler.png");
@@ -54,7 +57,7 @@ h1{
     position:fixed;
     top:-140%;
     left:-20%;
-    transform:translate(-160rem, 0rem);
+    transform:translate(-200rem, 0rem);
     scale:0.4;
     animation-name: tramway;
     animation-duration: 5s;

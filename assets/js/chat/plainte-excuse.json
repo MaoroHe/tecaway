@@ -1,0 +1,60 @@
+{
+  "retard": [
+    {
+      "plainte": "J'ai raté une réunion importante à cause du retard de ce bus. C'est frustrant de devoir subir ces retards imprévus.",
+      "justification": "Je comprends votre frustration. Nous avons identifié un problème mécanique sur le bus de la ligne 123, ce qui a entraîné des retards sur tous les trajets suivants. Nous travaillons à résoudre ce problème pour garantir un service fiable à l'avenir."
+    },
+    {
+      "plainte": "Je suis arrivé en retard au travail à cause de ce retard de bus. Cela nuit à ma productivité et à mon bien-être.",
+      "justification": "Je suis désolé pour l'impact sur votre journée. Le bus de la ligne 456 a été retardé en raison d'un accident sur la route, nécessitant un détour imprévu. Nous prenons des mesures pour minimiser de tels incidents à l'avenir."
+    },
+    {
+      "plainte": "J'ai dû attendre sous la pluie pendant plus de 30 minutes en raison du retard de ce bus. Cela devient difficile de compter sur les transports en commun.",
+      "justification": "Je comprends votre frustration. Le bus de la ligne 789 a été retardé en raison de conditions météorologiques extrêmes, ce qui a impacté le trafic. Nous travaillons à améliorer la résilience de notre service face aux intempéries."
+    },
+    {
+      "plainte": "Je suis arrivé en retard à un rendez-vous médical à cause de ce retard de bus. Cela met en péril ma santé et mon bien-être.",
+      "justification": "Je suis désolé pour le stress causé par ce retard. Le bus de la ligne 101 a subi une panne mécanique inattendue, prolongeant le temps d'attente pour les passagers. Nous travaillons à renforcer notre maintenance préventive pour éviter de telles situations."
+    },
+    {
+      "plainte": "J'ai manqué une occasion unique à cause de ce retard de bus. C'est frustrant de ne pas pouvoir compter sur un service fiable.",
+      "justification": "Je comprends votre déception. Le bus de la ligne 202 a pris un itinéraire alternatif en raison d'une erreur de navigation, causant des retards pour les passagers. Nous travaillons à améliorer la formation de nos conducteurs pour éviter de tels incidents."
+    }
+  ],
+  "encombrement": [
+    {
+      "plainte": "J'ai dû me battre pour trouver une place dans ce bus surchargé. C'était étouffant et inconfortable.",
+      "justification": "Je comprends votre frustration. En raison d'une affluence exceptionnelle due à la fermeture temporaire de plusieurs stations de métro, le bus de la ligne A était plus bondé que d'habitude. Nous examinons des solutions pour mieux gérer les pics d'affluence."
+    },
+    {
+      "plainte": "Je n'ai pas pu monter à bord de ce bus car il était plein à craquer. Cela a bouleversé mes plans pour la journée.",
+      "justification": "Je suis désolé pour cette expérience. En raison de travaux de maintenance imprévus, la capacité de transport sur le bus de la ligne B était limitée, entraînant une surcharge des véhicules en circulation. Nous travaillons à améliorer la communication en cas de perturbations futures."
+    },
+    {
+      "plainte": "Je me suis senti claustrophobe dans ce bus surchargé. C'était une expérience stressante et désagréable.",
+      "justification": "Je comprends votre malaise. La forte affluence à bord du bus de la ligne C a rendu impossible l'embarquement de certains passagers. Nous examinons des moyens d'améliorer la gestion de la capacité de transport pour garantir un voyage plus confortable."
+    },
+    {
+      "plainte": "J'ai dû subir l'encombrement de ce bus pendant tout mon trajet. C'était une expérience désagréable qui a gâché ma journée.",
+      "justification": "Je suis désolé pour cette expérience. En raison de la popularité croissante de la ligne D aux heures de pointe, nous avons rencontré des difficultés à maintenir un niveau de service optimal. Nous travaillons à ajouter des bus supplémentaires pour réduire les temps d'attente et l'encombrement."
+    }
+  ],
+  "zone_desservie": [
+    {
+      "plainte": "J'ai été surpris par la perturbation du service dans cette zone. Cela a compliqué mes déplacements et ma planification.",
+      "justification": "Je comprends votre frustration. En raison de travaux de rénovation majeurs sur l'avenue principale, certains arrêts de bus ont été temporairement fermés pour assurer la sécurité des passagers. Nous travaillons à minimiser les impacts sur la desserte des zones concernées."
+    },
+    {
+      "plainte": "Je me suis retrouvé bloqué à cause de la déviation de cet itinéraire de bus. Cela a rallongé mon trajet et perturbé mes plans.",
+      "justification": "Je suis désolé pour cette situation. Une manifestation en cours dans le centre-ville a entraîné des déviations temporaires de nos itinéraires de bus, provoquant des retards pour les passagers. Nous travaillons à coordonner nos services avec les autorités locales pour minimiser les perturbations."
+    },
+    {
+      "plainte": "Je suis déçu par les interruptions de service dans cette zone. Cela rend difficile la planification de mes déplacements et nuit à ma confiance dans les transports en commun.",
+      "justification": "Je comprends votre déception. Des travaux de maintenance essentiels ont nécessité la fermeture temporaire de certains arrêts de bus pour assurer la sécurité des passagers. Nous travaillons à informer les usagers des perturbations prévues et à améliorer la communication pendant ces périodes."
+    },
+    {
+      "plainte": "Je suis contrarié par les perturbations du service dans cette zone. Cela a compliqué mes déplacements et causé des retards inattendus.",
+      "justification": "Je suis désolé pour cette expérience. Nous sommes conscients de l'importance de maintenir une desserte régulière et fiable dans toutes les zones. Nous travaillons à identifier les causes des perturbations et à mettre en place des solutions pour améliorerla fiabilité du service dans cette zone."
+    }
+    ]
+    }

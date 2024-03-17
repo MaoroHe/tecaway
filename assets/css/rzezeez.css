@@ -1,0 +1,62 @@
+body {
+  background-color: darkcyan;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+}
+
+.home {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  margin-top: 16%;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.complainBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  background-color: gray;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.complainBtn:hover {
+  cursor: pointer;
+}
+
+.tram {
+  display: none;
+}
+
+.glide {
+  animation-fill-mode: none;
+  z-index: 2;
+  position: relative;
+  top: -18rem;
+  left: 110rem;
+  scale: 2;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-name: tramway;
+}
+
+@keyframes tramway {
+  from {
+    top: -24rem;
+    left: -50rem;
+    scale: 0.4;
+  }
+  to {
+    top: -18rem;
+    left: 100rem;
+    scale: 2;
+  }
+}/*# sourceMappingURL=rzezeez.css.map */
