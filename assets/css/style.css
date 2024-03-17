@@ -1,5 +1,9 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  background-color: darkcyan;
+  background-color: white;
 }
 
 h1 {
@@ -16,6 +20,7 @@ h1 {
   align-items: center;
   margin: 10%;
   margin-top: 16%;
+  transition: all 6s;
 }
 
 .complainBtn {
@@ -24,11 +29,12 @@ h1 {
   align-items: center;
   font-size: 32px;
   background-color: gray;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 0.5rem;
 }
 .complainBtn:hover {
   cursor: pointer;
+  background-color: rgb(93, 92, 92);
 }
 
 .tram {
@@ -49,10 +55,10 @@ h1 {
 
 @keyframes tramway {
   from {
-    transform: translate(-160rem, 0rem);
+    transform: translate(-180rem, -5rem);
   }
   to {
-    transform: translate(160rem, 10rem);
+    transform: translate(160rem, 20rem);
     scale: 1.2;
   }
 }/*# sourceMappingURL=style.css.map */
