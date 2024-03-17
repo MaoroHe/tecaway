@@ -12,16 +12,33 @@ let DisplayChat = (data, txt) => {
         state = 'retard';
     } else if (txt.includes('encombrement')) {
         state = 'encombrement';
+    } else if (txt.includes('horaires de')) {
+        state = 'pitchHo';
+    } else if (txt.includes('dampremy vers')) {
+        state = 'pitchDamp';
+    } else if (txt.includes('travaux sur')) {
+        state = 'pitchHos';
+    } else if (txt.includes('')) {
+        state = 'pitchHost';
     }
 
     console.log(state)
 
     switch (state) {
-        case 'retard':
-            chatDiv.innerHTML = data[state][randomIndex(5)]['justification'];
+        // case 'retard':
+        //     chatDiv.innerHTML = data[state][randomIndex(5)]['justification'];
+        //     break;
+        // case 'encombrement':
+        //     chatDiv.innerHTML = data[state][randomIndex(4)]['justification'];
+        //     break;
+        case 'pitchHo' :
+            chatDiv.innerHTML = data['spitch'][0]['justification'];
             break;
-        case 'encombrement':
-            chatDiv.innerHTML = data[state][randomIndex(4)]['justification'];
+        case 'pitchDamp' :
+            chatDiv.innerHTML = data['spitch'][1]['justification'];
+            break;
+        case 'pitchHos' :
+            chatDiv.innerHTML = data['spitch'][2]['justification'];
             break;
         default:
             chatDiv.innerHTML = 'ok';
